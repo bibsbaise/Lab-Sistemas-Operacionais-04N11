@@ -18,7 +18,7 @@ class EncurtadorURLService(urls_pb2_grpc.EncurtadorURLServicer):
         url_longa = request.url_longa
 
         # Gera um código curto aleatório de 6 caracteres
-        codigo_curto = ''.join(random.choices(string.ascii_letters + string.digits, k=6))
+        codigo_curto = ''.join(random.choices(string.ascii_letters + string.digits, k=20))
 
         # Armazena a associação codigo_curto -> url_longa
         self.url_map[codigo_curto] = url_longa

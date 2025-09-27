@@ -1,0 +1,5 @@
+/workspaces/Lab-Sistemas-Operacionais-04N11/CMakeFiles/generate_grpc_files.dir
+/workspaces/Lab-Sistemas-Operacionais-04N11/CMakeFiles/servidor_cpp.dir
+/workspaces/Lab-Sistemas-Operacionais-04N11/CMakeFiles/cliente_cpp.dir
+/workspaces/Lab-Sistemas-Operacionais-04N11/CMakeFiles/edit_cache.dir
+/workspaces/Lab-Sistemas-Operacionais-04N11/CMakeFiles/rebuild_cache.dir

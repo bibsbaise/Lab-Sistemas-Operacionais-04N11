@@ -66,7 +66,7 @@ int main() {
         "localhost:50051", grpc::InsecureChannelCredentials()));
 
     // 1. Encurtar uma URL longa de exemplo
-    std::string url_longa = "https://www.exemplo.com/artigos/introducao-grpc";
+    std::string url_longa = "https://www.alcides.com/artigos/introducao-grpc";
     std::string url_curta = client.Encurtar(url_longa);
 
     std::cout << "URL Longa: " << url_longa << std::endl;
